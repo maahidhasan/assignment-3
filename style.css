@@ -1,0 +1,7 @@
+/* Slider posion middle  */
+.slider-position-middle {
+    display: block !important;
+    position: absolute;
+    top: 252px;
+    left: 14px;
+}
