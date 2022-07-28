@@ -122,7 +122,7 @@
 
     <!-- Ready Now  -->
     <div class="section my-5 ">
-        <div class="container">
+        <div class="container py-5">
             <div class="row bg-info  flex-row justify-content-center align-items-center  py-5 ">
                 <div width="45%" class="col-lg-6 d-pnline col-md-12 col-sm-12   ">
                     <div>
@@ -132,14 +132,109 @@
                     </div>
                 </div>
                 <div class=" col-lg-4 col-md-12 col-sm-12    d-flex justify-content-end  ">
-                    <button type="button" class="btn btn-light text-info btn-lg h2 px-4 ">Register Now</button>
+                    <!-- <button type="button" class="btn btn-light text-info btn-lg h2 px-4 ">Register Now</button> -->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-light text-info btn-lg h2 px-4" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Happy Coding</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1 class="display4"> This is Model Thanks for taking time to view the model </h1>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
 
         </div>
     </div>
+
     <!-- Ready Now  Ends -->
+
+    <!-- Frequently asked Question start  -->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="h1">Frequently Asked Questions</h1>
+                    <p class="text-muted">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="accordion" id="accordionExample">
+                            <!-- Accordian items -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span class="h5 text-dark"> Difference between Flexbox and Grid</span>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p> <span class="text-muted"><strong>CSS flexbox.</strong>
+                                                - one dimensional (align items in one direction)
+                                                - only horizontal
+                                                - your content shape the layout
+                                                <strong>CSS grid </strong>
+                                                - two dimensional (can work on horizontal and vertical axis)
+                                                - your layout shape the content
+                                                - enables intentionally overlap items
+                                            </span> </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingtwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsetwo" aria-expanded="true" aria-controls="collapsetwo">
+                                        <span class="h5 text-dark">Difference between tailwind and bootstrap</span>
+                                    </button>
+                                </h2>
+                                <div id="collapsetwo" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingtwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p> <span class="text-muted"><strong>Tailwind </strong> offers predesigned
+                                                widgets to build a site from scratch with fast UI development.
+                                                Tailwind CSS uses a set of utility classes to create a neat UI with more
+                                                flexibility and uniqueness .
+                                                <br>
+                                                <strong>Bootstrap </strong>comes with a set of pre-styled responsive,
+                                                mobile-first components that possess a definite UI kit
+                                            </span> </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Frequently asked Question end  -->
 
 
 
